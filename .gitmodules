@@ -1,0 +1,9 @@
+[submodule "modules/ivorium"]
+	path = modules/ivorium
+	url = https://github.com/ivorne/ivorium.git
+[submodule "modules/iv_rctools"]
+	path = modules/iv_rctools
+	url = https://github.com/ivorne/iv_rctools.git
+[submodule "modules/iv_components"]
+	path = modules/iv_components
+	url = https://github.com/ivorne/iv_components.git
