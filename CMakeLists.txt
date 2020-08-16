@@ -30,7 +30,7 @@ if( CMAKE_SYSTEM_NAME MATCHES "Emscripten" )
 	set( CMAKE_EXECUTABLE_SUFFIX ".html" )
 	
 	target_link_options( game PUBLIC "SHELL:-s DISABLE_DEPRECATED_FIND_EVENT_TARGET_BEHAVIOR=0" )
-	target_link_options( game PUBLIC "SHELL:--shell-file ${CMAKE_CURRENT_BINARY_DIR}/shell.html.in" )
+	#target_link_options( game PUBLIC "SHELL:--shell-file ${CMAKE_CURRENT_BINARY_DIR}/shell.html.in" )
 	target_link_options( game PUBLIC "SHELL:--source-map-base http://localhost:8080/" )
 	target_link_options( game PUBLIC "SHELL:-s ASSERTIONS=1" )
 	target_link_options( game PUBLIC "SHELL:-s TOTAL_MEMORY=65536000" )
